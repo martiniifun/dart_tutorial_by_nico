@@ -7,7 +7,7 @@ void main() {
     return "my name is $name and I'm $age years old, livin in $country";
   }
 
-  // 또는 
+  // 또는
   String getInfo2({
     required String name,
     required int age,
@@ -16,9 +16,6 @@ void main() {
     return "my name is $name and I'm $age years old, livin in $country";
   }
 
-  print(getInfo(
-    name: "martin",
-    age: 40,
-    country: "South Korea",
-  ));
+  print(getInfo(name: "martin", age: 40, country: "South Korea"));
+  print(getInfo2(name: "martin", age: 40, country: "Korea"));
 }
